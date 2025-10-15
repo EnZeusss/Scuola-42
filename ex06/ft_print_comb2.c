@@ -1,5 +1,7 @@
 #include <unistd.h>
 
+void ft_print_comb2(void);
+
 int main(void)
 {
     ft_print_comb2();
@@ -12,8 +14,8 @@ void ft_print_comb2(void)
     char b;
 
     a = '0';
-    while (a <= '9')
-    {
+    while (a <= '9'){
+        
         b = '0';
         while (b <= '9')
         {
